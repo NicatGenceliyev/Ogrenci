@@ -1,17 +1,16 @@
 package Ogrenci;
 
 public class Ogrenci {
-	private String ad, soyad, okuduguSinif, okuduguOkul, okuduguYer;
+	private String ad, soyad, okuduguSinif, okuduguOkul;
 	private int yas;
 	private double boy;
 	private char cinsiyet;
 	
-	Ogrenci(String ad, String soyad, String okduguSinif, String okuduguOkul, String OkuduguYer, int yas, double boy, char cinsiyet) {
+	Ogrenci(String ad, String soyad, String okduguSinif, String okuduguOkul, int yas, double boy, char cinsiyet) {
 		this.ad = ad;
 		this.soyad = soyad;
 		this.okuduguSinif = okuduguSinif;
 		this.okuduguOkul = okuduguOkul;
-		this.okuduguYer = okuduguYer;
 		this.yas = yas;
 		this.boy = boy;
 		this.cinsiyet = cinsiyet;
