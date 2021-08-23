@@ -2,6 +2,7 @@ package Ogrenci;
 
 public class Ogrenci {
 	private String ad, soyad, okuduguSinif, okuduguOkul, okuduguBolge;
+
 	private int yas;
 	private double boy;
 	private char cinsiyet;
